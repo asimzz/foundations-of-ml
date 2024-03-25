@@ -1,6 +1,5 @@
 from tqdm import trange
 from data import train_test_split
-from activations import *
 from evaluations import *
 from model import SingleLayerNN
 
