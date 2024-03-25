@@ -43,7 +43,7 @@ $\sigma^{'}({x}) = \sigma(x) .(1-\sigma(x))$
 
 3.  `evaluations.py`
 
-it contains the choice of our loss functions since we are dealing with classifications problem, I used negative logarithmics function.
+It contains the choice of our loss functions since we are dealing with classifications problem, I used negative logarithmics function.
 
 $L(\theta) = - \sum\limits_{i=1}^{n} \left(y_i\log(\hat{y}\_{\theta,i}) + (1 - y_i) \log(1 - \hat{y}\_{\theta,i})\right)$
 
