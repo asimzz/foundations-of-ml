@@ -15,7 +15,6 @@ Let's explain each section separately:
 ## Table of Contents
 
 - [Foundations of Machine Learning](#foundations-of-machine-learning)
-  - [Table of Contents](#table-of-contents)
   - [Single Neural Network Layer From Scratch](#single-neural-network-layer-from-scratch)
     - [Instructions](#instructions)
 
