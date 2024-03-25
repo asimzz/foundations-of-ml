@@ -1,4 +1,4 @@
-# Foundations of Machine Learing
+# Foundations of Machine Learning
 
 This repository hosts a variety of machine learning implementations covering a wide range of topics and algorithms. Each algorithm is neatly organized into its own dedicated folder for easy access and navigation.
 
@@ -7,16 +7,14 @@ Before delving into the repository, ensure that you have Python 3 installed on y
 To clone the repository, simply execute the following command in your preferred terminal:
 
 ```bash
-
-git  clone  https://github.com/asimzz/foundations-of-ml.git
-
+git clone https://github.com/asimzz/foundations-of-ml.git
 ```
 
 Let's explain each section separately:
 
 ## Table of Contents
 
-- [Foundations of Machine Learing](#foundations-of-machine-learing)
+- [Foundations of Machine Learning](#foundations-of-machine-learning)
   - [Table of Contents](#table-of-contents)
   - [Single Neural Network Layer From Scratch](#single-neural-network-layer-from-scratch)
     - [Instructions](#instructions)
@@ -35,23 +33,27 @@ also it includes the splitting of the data into train and test sets.
 
 2.  `activations.py`
 
-It includes all of our activations functions, for this example I'm only using sigmoid function. The sigmoid function is defined as:
+It includes all of our activations functions, for this example I'm only using sigmoid function. 
+
+The sigmoid function is defined as:\
 $\sigma(x) = \frac{1}{1+e^{-x}}$
 
-and its derivative is given by:
+
+and its derivative is given by:\
 $\sigma^{'}({x}) = \sigma(x) .(1-\sigma(x))$
 
 3.  `evaluations.py`
 
 it contains the choice of our loss functions since we are dealing with classifications problem, I used negative logarithmics function.
 
-$L(θ) = -  \sum_{i=1}^{n}\biggl(y_ilog(\hat{y}_{θ,i})+  (1-y_i)log(1-\hat{y}_{θ,i})\biggl)$
+$L(\theta) = - \sum\limits_{i=1}^{n} \left(y_i\log(\hat{y}\_{\theta,i}) + (1 - y_i) \log(1 - \hat{y}\_{\theta,i})\right)$
 
 4.  `model.py`
 
-In this file, you have the flexibility to define your network architecture, including the number of inputs (h0), hidden units (h1), and outputs (h2). By default, I've set the number of hidden units to 10 for simplicity, but you can adjust it according to your preferences. The architecture is structured as follows:
+In this file, you have the flexibility to define your network architecture, including the number of inputs $(h0)$, hidden units $(h1)$, and outputs $(h2)$. By default, I've set the number of hidden units to 10 for simplicity, but you can adjust it according to your preferences. These parameters can be defined within the constructor of the class.
 
-`2 inputs -> 10 hidden units -> 1 output`. These parameters can be defined within the constructor of the class.
+The architecture is structured as follows:
+`2 inputs -> 10 hidden units -> 1 output`. 
 
 ![Single Hidden Layer Neural Network](nn.svg)
 
