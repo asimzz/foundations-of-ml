@@ -1,5 +1,5 @@
 import numpy as np
-from sigmoid import *
+from activations import *
 
 class SingleLayerNN:
     def __init__(self, h0, h1, h2):

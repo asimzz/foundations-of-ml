@@ -45,7 +45,7 @@ $\sigma^{'}({x}) = \sigma(x) .(1-\sigma(x))$
 
 it contains the choice of our loss functions since we are dealing with classifications problem, I used negative logarithmics function.
 
-$L(θ) = -  \sum_{i=1}^{n}\biggl(y_ilog(\hat{y}_{θ,i})+  (1-y_i)log(1-\hat{y}_{θ,i})\biggl)$
+$L(\theta) = -\sum_{i=1}^{n} \left( y_i \log(\hat{y}_{\theta,i}) + (1 - y_i) \log(1 - \hat{y}_{\theta,i}) \right)$
 
 4.  `model.py`
 
