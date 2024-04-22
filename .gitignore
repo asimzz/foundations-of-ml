@@ -3,3 +3,5 @@ nn-from-scratch/__pycache__
 pca/__pycache__
 knn/__pycache__
 linear-regression/__pycache__
+logistic-regression/__pycache__
+k-means/__pycache__
