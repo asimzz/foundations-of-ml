@@ -48,7 +48,6 @@ To use this implementation, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-
 git clone https://github.com/asimzz/foundations-of-ml.git
 
 cd linear-regression
@@ -58,7 +57,5 @@ cd linear-regression
 2. Run the main script:
 
 ```bash
-
 python main.py
-
 ```
