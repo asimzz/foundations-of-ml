@@ -19,7 +19,6 @@ class LinearRegression:
     def fit(self, Xtrain, ytrain, n_epochs=10):
         _, self.D = Xtrain.shape
         self.theta = np.zeros((self.D,1))
-        losses = []
     
         for epoch in range(n_epochs):
             ypred = self.forward_pass(Xtrain)
